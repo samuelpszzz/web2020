@@ -1,0 +1,254 @@
+.BODY{
+	text-align: left;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;	/*sacar subrryado de todo*/
+
+}
+
+
+header{
+	width: 0%;
+	height: .1px;
+	
+	
+}
+
+#logo{
+    width: 55px;
+    height:25px;
+
+}
+
+body{
+	background: #3a3a3c;
+}
+
+#logo-barra{
+	width: 35px;
+	height: 35px;
+	margin-left: 18px;
+	margin-top: -5px;
+	
+}
+
+/* barra y textos*/
+.nav ul{
+	list-style: none;
+	font-family: sans-serif;
+	padding-right: 25px;
+
+}
+
+.nav{
+	width: 1349px;
+  height: 29px;
+	margin: 0px ;
+	padding: 0px;
+	margin-top: 0px;
+	border-top: 5px solid #4a93ed;
+	background: #4a93ed;
+  /*position: fixed;  bug en en e scrollear*/
+}
+
+#Redes-sociles-juegos{
+	position: relative;
+	z-index: 6;
+}
+
+
+
+/*======================================*/	
+/*INICIO, ACERCA DE,SERVICIOS, CONTACTO */
+/*======================================*/	
+
+.contenedor > li{  
+	
+	display: inline-block;
+	float: right;/*los textos li INVERTIDOS */
+	
+	margin-right: 3px;
+	margin-left: 5px;
+	padding-right: 5px;
+	padding-left: 9px;   
+	padding-top: 3px;
+	
+}
+
+.contenedor > li > a{
+	padding: 1px;
+	border: 1px solid  #5D9CEC;             
+	color: black;
+	margin: 1px;
+	padding:  auto;
+	font-size: 19px; 
+	
+	
+}
+
+.contenedor li a:hover{
+	color: white;
+	transition: all .3s;
+	 /* color de la taransicion del SUBMENU*/
+    border-bottom: .1px solid #1b1b1b;
+}
+
+.contenedor li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.submenu{
+	position: absolute;
+	background: #151515;
+	visibility: hidden;
+	opacity: 1s;
+	transition: opacity 1s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 12px;
+	color: #fff;
+	text-decoration: none;
+}  
+
+/*fondo animado*/
+.transicon p {
+	color: white;
+	margin-top: 0px;
+	padding-top: 165px;
+	padding-left: 45px;
+	
+	font-size: 38px;
+	font-family: sans-serif;
+	text-shadow: 4px 3px 10px black;
+	
+	
+}
+
+div .transicon{
+		position:	inherit; /* arrglo de bug con el  (pop-up)*/
+		z-index:5;
+    margin-top:0px; 
+    width:auto; 
+    height:456px; 
+    background:#1b1b1b; 
+    background-size: % 100%;
+    animation-name: banner;
+    animation: banner 10s infinite;
+    animation-direction: alternate;
+		border: .1px solid #1b1b1b36; 
+    
+      
+}
+
+@keyframes banner{   /*animacion padre*/
+    0%, 30%{
+        background-image: url(imgs/juegos/notebook.jpg);
+        opacity: 1;
+    }
+    31%, 34%{
+        opacity: 0.1s;  /*flash*/
+    }
+    
+    
+    35%, 65%{
+        background-image: url(imgs/juegos/ps4.jpg);
+        opacity: 1;
+    } 
+    66%, 69%{
+        opacity: 0.1s;
+    }
+  
+    
+    70%,100%{
+        background-image: url(imgs/juegos/mando-xbox-white.jpg);
+        opacity: 1;
+			
+    }
+}
+
+div .cuadro1{
+    background:;
+    width:;
+	
+}
+
+div.cuadro{
+	display:inline-block;
+	width: 350px;
+	height: 290px;
+	
+	margin-top: 55px;
+	margin-left:60px;
+	margin-right: 10px;
+	background: #1b1b1b36; /*transparencia*/
+	border-radius: 3px 3px 3px 3px;
+	
+}
+
+#Titulo{
+	
+
+	font-size:20px;
+	font-family: sans-serif; 
+
+	margin:10px;
+	padding:1px;
+	text-align: center;
+	    
+}
+
+#texto{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 17px;
+	color: #fcfcfc;
+	font-family: sans-serif;
+	
+}
+
+#imagen{
+	width:350px;
+	height:200px;
+	margin-left: 0px;
+	
+	
+
+}
+
+cuadro{
+	font: message-box;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+.btn{
+	height: 30px;
+	width:;
+	float: right;
+	background-color: #3a3a3c;
+	border-radius:1px;
+	border-width: 5px;
+	
+	margin-right: 4px;
+	margin-top: 2px;
+	border:0px;
+ }
+
+.btn a {
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+
+
+	

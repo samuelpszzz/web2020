@@ -1,0 +1,253 @@
+/*==========================================*/	
+/*PROYECTO CULMINACION DISEÑO DE PAGINAS WEB*/
+/*    			 SAMUEL PIMENTEL                */
+/*==========================================*/
+
+.BODY{
+	text-align: left;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+#logo{
+    width: 55px;
+    height: 27px;
+    /*border: 5px solid #5D9CEC;
+    background: #5D9CEC;*/
+}
+
+header{
+	width: 0%;
+	height: .1px;
+	
+	
+}
+
+
+/* barra y textos*/
+#logo-barra{
+	width: 35px;
+	height: 35px;
+	margin-left: 18px;
+	margin-top: -5px;
+	
+}
+
+.nav ul{
+	list-style: none;
+	font-family: sans-serif;
+	padding-right: 30px;
+
+}
+
+.nav{
+	width: 1366px;
+  height: auto;
+	border-top: 5px solid #4a93ed;
+	background: #4a93ed;
+ /* position: fixed;*/
+}
+
+/*======================================*/	
+/*INICIO, ACERCA DE,SERVICIOS, CONTACTO */
+/*======================================*/	
+.contenedor > li{  
+	
+	display: inline-block;
+	float: right;/*los textos li INVERTIDOS */
+	
+	margin-right: 3px;
+	margin-left: 5px;
+	padding-right: 5px;
+	padding-left: 9px;   
+	padding-top: 3px;
+	
+}
+
+.contenedor > li > a{
+	padding: 1px;
+	border: 1px solid  #5D9CEC;             
+	color: black;
+	margin: 1px;
+	padding:  auto;
+	font-size: 19px; 
+	
+	
+}
+
+.contenedor li a:hover{
+	color: white;
+	transition: all .3s;
+	 /* color de la taransicion del SUBMENU*/
+    border-bottom: .1px solid #1b1b1b;
+}
+
+.contenedor li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.submenu{
+	position: absolute;
+	background: #151515;
+	visibility: hidden;
+	opacity: 1s;
+	transition: opacity 1s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 12px;
+	color: #fff;
+	text-decoration: none;
+}  
+
+#Redes-sociles{
+	position: relative;
+	z-index: 6;
+}
+
+/*======================================*/	
+/*            estructuracion            */
+/*======================================*/
+
+.titulo-div{
+	width: 1250px;
+	height: 40px;
+	margin-top: 39px;
+	margin-left: 50px;
+	background: #00487e;
+	
+	
+}
+
+#titulo{
+	font-family: sans-serif;
+	font-size: 27px;
+	padding: 5px;
+	color: #fff;
+	
+}
+
+#titulo-2{
+	font-family: sans-serif;
+	font-size: 27px;
+	padding: 5px;
+	color: black;
+	
+}
+
+.titulo-2{
+	width: 330px;
+	height: 40px;
+	margin-top: 150px;
+	margin-left: 50px;
+	background: #f6f6f6;
+	
+}
+
+.fondo{
+	background: #f6f6f6;
+	width: 1250px;
+	margin-left: 50px;
+}
+
+.Programa-1{
+	margin-top: 10px;
+	border-bottom: 5px solid #fff;
+	
+}
+
+.fondo > .Programa-1 > img{
+	width: 200px;
+	margin: 30px;
+	margin-top: -40px;
+	margin-left: 120px;
+}
+
+#titulo-programa-1{
+	border-radius:5px; 
+	margin-left: 40%;
+	padding-top: 10px; 
+	font-size: 30px;
+	font-family: sans-serif;
+	color: black;
+	
+}
+
+#descp-1{
+	border-radius:5px; 
+	margin-left: 40%;
+	padding-top:px; 
+	font-size: 20px;
+	font-family: sans-serif;
+	color: black;
+	
+}
+#descp-2{
+	border-radius:5px; 
+	margin-left: 40%;
+	padding-top: 12px; 
+	font-size: 20px;
+	font-family: sans-serif;
+	color: black;
+	
+	
+}
+#descp-1A{
+	border-radius:5px; 
+	margin-left: 40%;
+	margin-top: -120px; 
+	font-size: 20px;
+	font-family: sans-serif;
+	color: black;
+	
+}
+
+#listas-tecnica{
+	padding-left: 520px;
+	margin-top: 2px;
+	
+	font-size: 17px;
+	font-family: sans-serif;
+	color: black;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

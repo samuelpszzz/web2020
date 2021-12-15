@@ -1,0 +1,143 @@
+<!--
+PROYECTO CULMINACION DISEÑO DE PAGINAS WEB
+    			 SAMUEL PIMENTEL                
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Página de inicio</title>
+	<link rel="stylesheet" href="Styles.css">
+	<link rel="stylesheet" type="text/css" href="style-pop-up.css">
+
+	<link rel="icon"href="imgs/SamuelPimentel.png"type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet"> <!--categorias-->
+	
+</head>
+<body>
+		<div class="BODY">
+			<header>
+					<nav class="nav">
+						<ul class="contenedor">
+								<a title="Inicio" href="index.html"><img id="logo-barra" src="imgs/SamuelPimentel%20(black).png" width="20"></a>
+								      
+                    <li id="Redes-sociles"><a href="#">Redes sociales</a>
+												<ul class="submenu">
+													<li><a href="#">Facebook</a></li>
+													<li><a href="#">Instagram</a></li>
+													<li><a href="#">Youtube</a></li>
+												</ul>
+										</li>
+									
+										<li><a href="FAQ.html">FAQ</a></li>
+                
+								<!--inicio-->
+									<li><a href="#modal" id="abrir-modal">Contacto</a>
+                
+										<section id="modal" class="modal">
+											 <div class="content-modal">
+													<header>
+														<a href="#" class="close-modal">X</a>
+													</header>
+								        <article>
+												 
+												 <p id="texto-contacto">CONTACTO</p>
+														<p id="texto-contacto-info">&#40;Su mensaje será enviado al soporte de nuestro sitio web.&#41;</p>
+                              
+														<form action="PaginaWEB" method="post">
+																<div >
+																		<label for="name">Name:</label>
+																		<input type="text" id="name" />
+																</div>
+																<div>
+																		<label for="mail">E-mail:</label>
+																		<input type="email" id="mail" />
+																</div>
+																<div >
+																		<label for="msg">Message:</label>
+																		<textarea id="msg"></textarea>
+                                    <p id="texto-contacto-sugerencia">Recuerda chequear la bandeja de entrada del <b>correo ingresado</b> en el formulario.</p>
+																</div>
+
+																<div class="button">
+																		<button type="submit">Enviar</button>
+																</div>
+														</form>
+								
+												 </article>
+                           
+											 </div>
+											 <a href="#" class="btn-close-modal"></a>
+										</section>
+                      
+									</li>
+								<!--final-->
+             
+								<li><a href="index.html">Inicio</a></li>
+						</ul>
+						</nav>
+			</header>
+				
+
+			<section>
+				<article>
+							<div class="transicon">
+									<p></p>
+							</div>
+					</article>
+			</section>
+			
+
+			<section class="contenedor2">
+					<article>
+									<div class="contP2"> <p>Seleccione una categoria</p></div>
+
+
+									<div class="objeto">
+											<a href="Prgramas.html"><img id="predisenada" src="imgs/Programas.png"></a>
+									<p id="tituloCat">Programas</p><p id="Desc">Aquí encontraremos una gran variedad de programas con  propósitos distintos. </p><p id="DesP">Editores de video, sonido, imágenes, modelaje 3D.<br>Editores  y compiladores de código.<br>Programas esenciales que demos tener para Windows, actualización de drivers, optimizar y liberar espacio en el disco duro.</p>
+
+											<div class="hijo">
+													<a title="" href="Prgramas.html" id="redirec">Seleccionar</a>
+											</div>
+									</div>
+
+
+
+
+
+
+
+
+
+
+						<div class="objeto">
+											<a href="Juegos.html"><img id="predisenada" src="imgs/Juegos.png"></a>
+							<p id="tituloCat">Juegos</p>
+							<p id="Desc">Aquí encontraremos;<br>Titulos relevantes de juegos, ultimas actulizaciones.
+							Ofertas y juegos juegos free to play.  </p>
+
+							<p id="DesP">En general informaciones sobre titulos relevantes de la actulidad del mundo gaming. </p>
+							<p id="DesP">Lanzamiento de juegos en fase beta y sus informaciones, capturass.</p>
+
+											<div class="hijo2">
+													<a title="" href="Juegos.html" id="redirec">Seleccionar</a>
+											</div>
+
+									</div>
+
+
+
+
+					</article>
+</section>
+
+
+
+
+
+		</div>
+	</body>
+</html>

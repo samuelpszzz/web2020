@@ -1,0 +1,339 @@
+/*==========================================*/	
+/*PROYECTO CULMINACION DISEÑO DE PAGINAS WEB*/
+/*    			 SAMUEL PIMENTEL                */
+/*==========================================*/
+
+
+.BODY{
+	text-align: left;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+#logo{
+    width: 55px;
+    height: 27px;
+    /*border: 5px solid #5D9CEC;
+    background: #5D9CEC;*/
+}
+
+header{
+	width: 0%;
+	height: .1px;
+	
+	
+}
+
+body{
+	
+	background: url(img2/Bg1.jpg);
+    /*background: url(Baground%202.jpg);*/
+
+
+}
+
+/* barra y textos*/
+#logo-barra{
+	width: 35px;
+	height: 35px;
+	margin-left: 18px;
+	margin-top: -5px;
+	
+} 
+
+.nav ul{
+	list-style: none;
+	font-family: sans-serif;
+	padding-right: 25px;
+
+}
+
+.nav{
+	width: 1349px;
+  height: 29px;
+	border-top: 5px solid #4a93ed;
+	background: #4a93ed;
+ /* position: fixed;*/
+}
+
+#Redes-sociles{
+	position: relative;
+	z-index: 6;
+}
+
+
+/*======================================*/	
+/*INICIO, ACERCA DE,SERVICIOS, CONTACTO */
+/*======================================*/	
+.contenedor > li{  
+	
+	display: inline-block;
+	float: right;/*los textos li INVERTIDOS */
+	
+	margin-right: 3px;
+	margin-left: 5px;
+	padding-right: 5px;
+	padding-left: 9px;   
+	padding-top: 3px;
+	
+}
+
+.contenedor > li > a{
+	padding: 1px;
+	border: 1px solid  #5D9CEC;             
+	color: black;
+	margin: 1px;
+	padding:  auto;
+	font-size: 19px; 
+	
+	
+}
+
+.contenedor li a:hover{
+	color: white;
+	transition: all 1s;
+	 /* color de la taransicion del SUBMENU*/
+   border-bottom: .1px solid #1b1b1b;
+}
+
+.contenedor li:hover .submenu{
+	visibility: visible;
+	opacity: 3;
+}
+
+.submenu{
+	position: absolute;
+	background: #151515;
+	visibility: hidden;
+	opacity: 1s;
+	transition: opacity 1s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 12px;
+	color: #fff;
+	text-decoration: none;
+}  
+
+/***/
+
+/*======================================*/	
+/*MENU A LA IZQ, RELLENAR MAS EL ESAPCIO*/
+
+/*
+div#menuL {
+    width: auto;
+    margin-top: 250px;
+    float: left;
+}
+
+div#menuL:hover {
+    margin-left: 1px;
+}
+
+div#menuL ul {
+    list-style: none;
+}
+
+div#menuL ul li {
+    padding: 15px 10px 15px 0px;
+}
+
+div#menuL ul li a {
+    text-decoration: none;
+	font-family: "Palatino", sans-serif;
+    color: black;
+    padding: 12px 12px 10px 40px;
+    margin: -1px;
+    background: #6ccff3;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 2px 2px 2px #232323;
+    transition: padding .5s;
+}
+
+div#menuL ul li a:hover{
+    padding: 12px 15px 10px 60px;
+}
+
+*/
+/*======================================*/	
+/*SEPARACION Y DIVISION EN DOS CATEGOROIAS*/
+/*======================================*/	
+
+
+div .transicon{
+		position:	inherit; /* arrglo de bug con el  (pop-up)*/
+		z-index: 5;
+    margin-top:34px; 
+    width:auto; 
+    height:215px; 
+    background:#1b1b1b; 
+    background-size: 100%;
+    animation-name: banner;
+    animation: banner 10s infinite;
+    animation-direction: alternate;
+		border: .1px solid #1b1b1b36; 
+    
+      
+}
+
+@keyframes banner{   /*animacion padre*/
+    0%, 30%{
+        background-image: url(img2/fondo1.jpg);
+        opacity: 1;
+    }
+    31%, 34%{
+        opacity: 0.1s;  /*flash*/
+    }
+    
+    
+    35%, 65%{
+        background-image: url(img2/fondo2.jpg);
+        opacity: 1;
+    } 
+    66%, 69%{
+        opacity: 0.1s;
+    }
+    
+    
+    70%,100%{
+        background-image: url(img2/fondo3.jpg);
+        opacity: 1;
+    }
+}
+
+.contenedor2{ /*CATEGORIAS*/
+	background: #F5F7FA;  /* 1c1c1c */
+
+	margin-top: 0px;
+	padding: 0px;
+	height: 450px;
+
+}
+
+.contP2{
+    background: #f4f4f4;
+}
+
+.contP2 p{ 
+	font-family: 'Anton', sans-serif;
+	font-size: 23px;
+	text-align: center;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+/*cajas de seleccion*/
+.objeto{
+    display: inline-block;
+    background-color: #e3e3e3;/*lightblue*/   
+	border: 1px solid #636363;   
+
+	width: 450px;
+    height: 300px;
+	border-radius: 33px 0px 45px 0px; 
+    margin-right: 1px;
+    margin-left:150px;
+    margin-top:15px;
+	
+
+      
+}
+
+#predisenada{
+    
+    width: 144px;
+    height: 150px;
+	margin-left: 10px;
+	margin-top: 9px;	
+	
+}
+
+/* descripcion de programas  y njoticias*/
+#tituloCat{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 20px;
+	color: #151515;
+}
+
+.objeto p{
+    margin-top:5px;
+    padding:1px;
+		margin-left: 169px;
+		margin-top: -152px;
+		padding-right: 5px;
+		padding-left: 1px;
+		font-family: 'Raleway', sans-serif;
+}
+
+#Desc{
+	color: #151515;
+	padding-top: 159px; 
+	
+}
+
+#DesP{
+	margin-top:5px;
+    padding:1px;
+	margin-top:7px;
+	
+	padding-right: 3px;
+	padding-left: 1px;
+	
+	
+    font-size: 17px;
+	font-family: ;
+    color: #151515;
+}
+
+
+/*seleccionar*/
+.hijo{
+    width: 194px;
+    height: 30px;
+    background: #636363;        
+		border: 1px solid #636363; 
+		margin-top: 6px; 
+		padding-top: 12px;
+		margin-left: 254px;
+		border-radius: 33px 0px 45px 0px;  
+}
+
+.hijo2{
+    width: 194px;
+    height: 30px;
+    background: #636363;        
+		border: 1px solid #636363; 
+
+		margin-top: -2.4px; 
+		padding-top: 12px;
+		margin-left: 254px;
+		border-radius: 33px 0px 45px 0px;  
+}
+
+.hijo #redirec {
+    padding-left: 55px;
+    font-size: 18px;   
+    color: black;
+		font-family: 'Merriweather Sans', sans-serif; 
+}
+
+.hijo2 #redirec {
+    padding-left: 55px;
+    font-size: 18px;   
+    color: black;
+		font-family: 'Merriweather Sans', sans-serif; 
+}
+
+
+
+
+
